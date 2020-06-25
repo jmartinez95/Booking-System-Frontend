@@ -1,0 +1,35 @@
+.authentication-form {
+    background-color: rgb(9, 9, 9);
+    width: 100%;
+    position: relative;
+    max-width: 720px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(51, 51, 51);
+    border-image: initial;
+    border-radius: 4px;
+    padding: 25px 25px 37.5px;
+    margin:auto;
+}
+
+
+
+.form-actions:after {
+    content: "";
+    width: 50%;
+    display: block;
+    border-bottom: 1px solid rgb(51, 51, 51);
+    margin: 16.6667px auto 25px;
+}
+
+.secondary-form-actions {
+    color:white;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+}
+
+.secondary-form-actions .register-link {
+    margin-left:.5rem;
+    color: white;
+}
